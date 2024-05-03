@@ -7,6 +7,10 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family:var(--cor--de--fundo).;
+    font-size:16px;
+    font-weight: 400;
+
 }
 * {
     margin: 0;
@@ -19,14 +23,7 @@ body {
 }
 .container {
     height: 100vh;
+    display: gred;
+    grid-template-columns: 33% 33%;
 }
-
-.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-}
-
 
